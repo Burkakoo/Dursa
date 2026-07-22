@@ -1,4 +1,5 @@
-type: static
-name: dursa-portfolio
-buildCommand: echo "Static site ready"
-staticPublishPath: ./
+services:
+  - type: static
+    name: dursa-portfolio
+    buildCommand: echo "Static site ready"
+    staticPublishPath: ./
